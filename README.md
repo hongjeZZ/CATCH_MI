@@ -1,16 +1,129 @@
-# **🏟️ 캐치미 🏟️**
+# **🏟️ 캐치미(CATCH-Mi)**
 
 **야구로 시작되는 특별한 만남**
 
 > '**캐치미**' 는 KBO 야구팬들을 위한 직관 메이트 매칭 웹앱 서비스입니다. <br>
 > 팬들이 신뢰할 수 있는 환경에서 직관 메이트를 찾고, 경기장에서의 경험을 더욱 풍성하게 만드는 서비스입니다. <br>
 > 본 서비스는 **KBO 경기 정보 제공, 직관 메이트 매칭, 굿즈 중고 거래 기능**을 제공합니다.
-<img width="1900px" src="https://github.com/user-attachments/assets/3a31932d-8d1e-4cd0-ada6-b75e6286de96"/> 
+<img width="1900px" src="https://github.com/user-attachments/assets/3a31932d-8d1e-4cd0-ada6-b75e6286de96"/>
+
+</br>
+
+[📹 시연 영상](https://drive.google.com/file/d/1N1vgHQ4EDdTXtUBJZObTqEr5irKIB_ew/view?usp=drive_link)
+
+[🌅 캐치미 결과 보고서](https://docs.google.com/presentation/d/1tbXgOLi0-PEulPipKmBvRe6ctJ7Usifj/edit?usp=drive_link&ouid=116361206758761014714&rtpof=true&sd=true)
 
 </br>
 </br>
 
-## 트러블 슈팅 기록
+## 💁🏻‍♂️ 문제 정의 및 솔루션
+
+### 🧢 이런 분들을 위해 만들었어요!
+1. 혼자 야구 직관을 가기 망설여지는 분
+2. 같은 팀을 응원하는 새로운 팬들과 안전하게 교류하고 싶은 분
+3. 직관 메이트를 쉽게 찾아보고, 신뢰할 수 있는 환경에서 만나고 싶은 분
+4. 경기 정보와 날씨를 한눈에 확인하고 싶으신 분
+5. 직관의 순간을 기록하고, 메이트들과의 추억을 공유하고 싶은 분
+6. 야구 굿즈를 경기장에서 안전하게 거래하고 싶은 분
+
+### ⚾️ 캐치미가 이렇게 도와드릴게요!
+1. **직관 메이트 매칭** – 취향과 스타일이 맞는 메이트를 찾고, 안전한 실시간 채팅으로 약속을 잡을 수 있어요.
+2. **스마트한 경기 정보 제공** – KBO 경기 일정, 순위, 현장 날씨까지 한눈에 확인할 수 있어요.
+3. **신뢰도 높은 프로필 시스템** – 매너 타율 시스템과 응원 스타일 설정으로 나에게 맞는 메이트를 쉽게 찾을 수 있어요.
+4. **직관 타임라인** – 내가 다녀온 경기의 티켓과 특별한 순간을 사진과 함께 기록할 수 있어요.
+5. **안전한 굿즈 거래** – 경기장에서의 굿즈 거래를 더 편리하고 안전하게 진행할 수 있어요.
+6. **지속적인 팬 네트워크 형성** – 팔로우 기능을 통해 한 번 만난 메이트와 지속적으로 소통할 수 있어요.
+
+</br>
+</br>
+
+## 💻 시스템 아키텍처
+<img width="1900px" src="https://github.com/user-attachments/assets/ca0bfc31-e5fa-4a0c-9ac7-689943a6837d"/> 
+
+</br>
+</br>
+
+## 🛠️ 기술 스택
+<img width="1900px" alt="image" src="https://github.com/user-attachments/assets/8d426c6e-0239-4f5c-8597-d542a5cccbf2" />
+
+</br>
+</br>
+
+## 🍀 Demo
+
+|                         🚀 메인 페이지                          |                  👥 메이트 구인글 페이지                    |                        💬 메이트 채팅 페이지                          |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="https://github.com/user-attachments/assets/cf88b467-ae1d-45cf-a1a6-512572149ec0" alt="메인_페이지" width=80%> | <img src="https://github.com/user-attachments/assets/ada69554-8c67-48e5-b6e2-e6c52f0089ee" alt="메이트_매칭_페이지" width=80%> | <img src="https://github.com/user-attachments/assets/34479f15-de89-44eb-9cc1-2665091a45f1" alt="메이트_채팅방_페이지" width=80%> |
+
+|                    🏏 굿즈 상품 등록 페이지                       |                ⚾️ 굿즈 거래 페이지                |                        💬 굿즈 거래 채팅 페이지                       |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="https://github.com/user-attachments/assets/7cf9b5d9-0a0c-4ad1-a3fe-c9a165592f35" alt="굿즈_상품_등록_페이지" width=80%> | <img src="https://github.com/user-attachments/assets/864067b1-787c-4914-b971-cb2b5f03e45c" alt="굿즈_거래_페이지" width=80%> | <img src="https://github.com/user-attachments/assets/e8f940ca-606d-4477-9827-1a2761c3d3fe" alt="굿즈_거래_일대일_매칭" width=80%> |
+
+</br>
+</br>
+
+## 🛠 3차례에 걸친 채팅 서비스 성능 최적화 - <a href="https://tenaciously.tistory.com/entry/Spring-boot-WebSocket-%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EC%B1%84%ED%8C%85-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B04-%EC%B1%84%ED%8C%85-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0-%EB%B0%8F-%EB%B6%80%ED%95%98-%ED%85%8C%EC%8A%A4%ED%8A%B8" target="_blank">[블로그 기록]</a>
+
+> CATCH Mi 프로젝트는 직관 메이트 매칭과 굿즈 중고거래를 핵심 서비스로 제공하며, 두 기능 모두 **채팅을 중심**으로 이루어집니다.
+>  
+> 따라서 채팅 서비스의 성능은 사용자 경험에 **직접적인 영향을 미치는 중요한 요소**였습니다.
+> 
+> 이를 위해 **데이터베이스 마이그레이션, 페이지네이션 개선, 캐싱 도입** 등 다양한 성능 최적화 작업을 수행하였고, **JMeter 성능 테스트**를 통해 검증하였습니다.
+
+### 🛠 JMeter 테스트 상세 결과
+- **스레드 수**: 100  
+- **Ramp-up 시간**: 50초  
+- **요청 횟수**: 150회/스레드  
+- **총 샘플 수**: 30,000
+
+<br>
+
+#### 1. 기존 MySQL 환경
+![image](https://github.com/user-attachments/assets/eb3228aa-adb0-43b8-82fe-15d51f4d5a2f)
+
+| 지표              | 값         |
+|-------------------|------------|
+| 평균 응답시간      | 592ms    |
+| 95% 응답시간       | 736ms    |
+| 평균 TPS          | 132.7/sec |
+
+
+<br>
+
+#### 2. MongoDB 마이그레이션 후
+![image](https://github.com/user-attachments/assets/86be4db2-bcde-41b8-a130-0c1c3812f3ed)
+
+| 지표              | 값         | 개선율 |
+|-------------------|------------|--------|
+| 평균 응답시간      | 396ms    |     |
+| 95% 응답시간       | 577ms    |        |
+| 평균 TPS          | 176.0/sec  |   33% ↑     |
+
+
+<br>
+
+#### 3. No-Offset 페이지네이션 + Redis 적용 후
+![image](https://github.com/user-attachments/assets/10fbdf63-a75c-4ec5-9677-4947ff57a219)
+
+| 지표              | 값        | 개선율  |
+|-------------------|-----------|---------|
+| 평균 응답시간      | 2ms      |   |
+| 95% 응답시간       | 4ms      |         |
+| 평균 TPS          | 981.8/sec |   457% ↑      |
+
+<br>
+
+### 🎯 결론
+- MongoDB 마이그레이션 : **TPS 33% 향상**  
+- No-Offset 페이지네이션 + Redis : **TPS 457% 추가 향상**
+- 결론적으로 3차례의 성능 개선을 거치며 기존보다 **약 TPS 639.98% 향상**
+
+> 채팅 메시지 조회 속도가 대폭 개선되어 사용자들이 실시간으로 **원활한 소통을 보장**하여 보다 **안정적인 서비스를 제공**할 수 있었습니다.
+
+<br>
+<br>
+
+## 🔥 트러블 슈팅
 
 <details>
   <summary><strong>1. 채팅방 이벤트 비동기 처리</strong> — <a href="https://tenaciously.tistory.com/entry/Spring-boot-WebSocket-%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EC%B1%84%ED%8C%85-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B03-STOMP%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%B1%84%ED%8C%85-%EA%B5%AC%ED%98%84#%EB%B9%84%EB%8F%99%EA%B8%B0%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EC%B2%98%EB%A6%AC%20(%EC%9E%85%EC%9E%A5%2C%20%ED%87%B4%EC%9E%A5%2C%20%EA%B1%B0%EB%9E%98%EC%99%84%EB%A3%8C%20%EB%A9%94%EC%8B%9C%EC%A7%80)-1-4" target="_blank">[블로그 기록]</a></summary>
@@ -142,51 +255,6 @@
   <br>
 
 </details>
-
-</br>
-</br>
-
-## 문제 정의 및 솔루션
-
-### 🧢 이런 분들을 위해 만들었어요!
-1. 혼자 야구 직관을 가기 망설여지는 분
-2. 같은 팀을 응원하는 새로운 팬들과 안전하게 교류하고 싶은 분
-3. 직관 메이트를 쉽게 찾아보고, 신뢰할 수 있는 환경에서 만나고 싶은 분
-4. 경기 정보와 날씨를 한눈에 확인하고 싶으신 분
-5. 직관의 순간을 기록하고, 메이트들과의 추억을 공유하고 싶은 분
-6. 야구 굿즈를 경기장에서 안전하게 거래하고 싶은 분
-
-### ⚾️ 캐치미가 이렇게 도와드릴게요!
-1. 직관 메이트 매칭 – 취향과 스타일이 맞는 메이트를 찾고, 안전한 실시간 채팅으로 약속을 잡을 수 있어요.
-2. 스마트한 경기 정보 제공 – KBO 경기 일정, 순위, 현장 날씨까지 한눈에 확인할 수 있어요.
-3. 신뢰도 높은 프로필 시스템 – 매너 타율 시스템과 응원 스타일 설정으로 나에게 맞는 메이트를 쉽게 찾을 수 있어요.
-4. 직관 타임라인 – 내가 다녀온 경기의 티켓과 특별한 순간을 사진과 함께 기록할 수 있어요.
-5. 안전한 굿즈 거래 – 경기장에서의 굿즈 거래를 더 편리하고 안전하게 진행할 수 있어요.
-6. 지속적인 팬 네트워크 형성 – 팔로우 기능을 통해 한 번 만난 메이트와 지속적으로 소통할 수 있어요.
-
-</br>
-</br>
-
-## 시스템 아키텍처
-<img width="1900px" src="https://github.com/user-attachments/assets/ca0bfc31-e5fa-4a0c-9ac7-689943a6837d"/> 
-
-</br>
-</br>
-
-## 기술 스택
-<img width="1900px" alt="image" src="https://github.com/user-attachments/assets/8d426c6e-0239-4f5c-8597-d542a5cccbf2" />
-
-
-
-## Demo
-
-|                         🚀 메인 페이지                          |                  👥 메이트 구인글 페이지                    |                        💬 메이트 채팅 페이지                          |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://github.com/user-attachments/assets/cf88b467-ae1d-45cf-a1a6-512572149ec0" alt="메인_페이지" width=80%> | <img src="https://github.com/user-attachments/assets/ada69554-8c67-48e5-b6e2-e6c52f0089ee" alt="메이트_매칭_페이지" width=80%> | <img src="https://github.com/user-attachments/assets/34479f15-de89-44eb-9cc1-2665091a45f1" alt="메이트_채팅방_페이지" width=80%> |
-
-|                    🏏 굿즈 상품 등록 페이지                       |                ⚾️ 굿즈 거래 페이지                |                        💬 굿즈 거래 채팅 페이지                       |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://github.com/user-attachments/assets/7cf9b5d9-0a0c-4ad1-a3fe-c9a165592f35" alt="굿즈_상품_등록_페이지" width=80%> | <img src="https://github.com/user-attachments/assets/864067b1-787c-4914-b971-cb2b5f03e45c" alt="굿즈_거래_페이지" width=80%> | <img src="https://github.com/user-attachments/assets/e8f940ca-606d-4477-9827-1a2761c3d3fe" alt="굿즈_거래_일대일_매칭" width=80%> |
 
 </br>
 </br>
