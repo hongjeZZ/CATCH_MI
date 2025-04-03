@@ -69,16 +69,24 @@ public class GoodsChatMessageService {
         chatRoom.updateLastChat(message, chatMessage.getSentAt());
 
         // MongoDB 트랜잭션
-        mongoTransactionTemplate.executeWithoutResult(status -> {
-            // 채팅 메시지 저장
-            GoodsChatMessage savedMessage = messageRepository.save(chatMessage);
+        try {
+            mongoTransactionTemplate.executeWithoutResult(status -> {
+                // 채팅 메시지 저장
+                GoodsChatMessage savedMessage = messageRepository.save(chatMessage);
 
-            // redis 캐시 저장
-            goodsChatCacheManager.storeMessageInCache(savedMessage.getChatRoomId(), savedMessage);
+                // redis 캐시 저장
+                goodsChatCacheManager.storeMessageInCache(savedMessage.getChatRoomId(), savedMessage);
 
-            // 메시지 전송
-            sendToSubscribers(savedMessage.getChatRoomId(), GoodsChatMessageResponse.of(savedMessage, member));
-        });
+                // 메시지 전송
+                sendToSubscribers(savedMessage.getChatRoomId(), GoodsChatMessageResponse.of(savedMessage, member));
+            });
+        } catch (Exception e) {
+            // redis 캐시 무효화
+            goodsChatCacheManager.evictMessagesFromCache(chatRoom.getId());
+
+            // JPA 트랜잭션으로 예외 전파
+            throw e;
+        }
     }
 
     private GoodsChatMessage createChatMessage(Long chatRoomId, Long memberId, String message, MessageType type) {
